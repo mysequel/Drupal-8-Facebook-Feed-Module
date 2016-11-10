@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * The module file for facebook_page module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function facebook_page_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.facebook_page':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Example Help page') . '</p>';
+      return $output;
+      break;
+
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function facebook_page_theme() {
+  return array(
+    'facebook_page_post' => array(
+      'variables' => array('text' => NULL),
+      'template' => 'facebook-page-post',
+    ),
+  );
+}

@@ -1,0 +1,5 @@
+facebook_page.admin:
+  title: 'Facebook Page'
+  description: 'Configuration page for Facebook Page.'
+  parent: system.admin_config_content
+  route_name: facebook_page.admin

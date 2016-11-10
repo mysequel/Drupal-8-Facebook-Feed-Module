@@ -1,0 +1,16 @@
+name: Facebook Page
+type: module
+description: 'Creates a block that displays posts from a facebook page.'
+package: Social
+# version: VERSION
+# core: 8.x
+dependencies:
+  - block
+configure: facebook_page.admin
+
+
+# Information added by Drupal.org packaging script on 2016-06-10
+version: '8.x-0.0'
+core: '8.x'
+project: 'facebook_page'
+datestamp: 1465554542

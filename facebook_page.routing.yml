@@ -1,0 +1,7 @@
+facebook_page.admin:
+  path: '/admin/config/content/facebook_page'
+  defaults:
+    _form: 'Drupal\facebook_page\Form\FacebookPageForm'
+    _title: 'Configure Facebook Account'
+  requirements:
+    _permission: 'administer site configuration'
