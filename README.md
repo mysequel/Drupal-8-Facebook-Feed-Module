@@ -1,4 +1,4 @@
-# Drupal-8-Facebook-Feed-Module
+# Drupal 8 Simple Facebook Feed Module
 This's my custom module on Drupal 8 to load feed from a Facebook page. This module inspired by [Instagram Block Module] (https://www.drupal.org/project/instagram_block)
 
 # Usage
