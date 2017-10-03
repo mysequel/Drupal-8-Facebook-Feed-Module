@@ -6,4 +6,5 @@ This's my custom module on Drupal 8 to load feed from a Facebook page. This modu
 * Get the User Token from your App trough this [Link] (https://developers.facebook.com/tools/accesstoken/)
 * By debug above User Token, you may able to set it to long-lived access token
 * Install the module
+* Run 'composer require facebook/graph-sdk' to install Facebook graph sdk
 * Fill the Facebook Page setting at admin/config/content/facebook_page
