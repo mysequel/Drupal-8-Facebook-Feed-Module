@@ -1,5 +1,5 @@
 app_id: ''
 app_secret: ''
 access_token: ''
-default_graph_version: 'v2.8',
+default_graph_version: 'v2.8'
 page_id: ''
